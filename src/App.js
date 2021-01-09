@@ -10,7 +10,13 @@ import {
 import { useHttpClient } from "./hooks/http-hook";
 import { AuthContext } from "./context/auth-context";
 import { AdminContext } from "./context/admin-context";
-import HomePage from "./HomePage/HomePage";
+import HomePage from "./WebPages/HomePage/HomePage";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
+import Navbar from "./components/Navbar";
+import Services from "./WebPages/ServicesPage/Services";
+import AboutPage from "./WebPages/AboutPage/AboutPage";
+import ContactPage from "./WebPages/ContactPage/ContactPage";
 
 function App() {
   const auth = useContext(AuthContext);
@@ -87,6 +93,15 @@ function App() {
         <Route path="/" exact>
           <HomePage />
         </Route>
+        <Route path="/service" exact>
+          <Services />
+        </Route>
+        <Route path="/about" exact>
+          <AboutPage />
+        </Route>
+        <Route path="/contact" exact>
+          <ContactPage />
+        </Route>
         <Redirect to="/" />
       </Switch>
     );
@@ -96,6 +111,15 @@ function App() {
         <Route path="/" exact>
           <HomePage />
         </Route>
+        <Route path="/service" exact>
+          <Services />
+        </Route>
+        <Route path="/about" exact>
+          <AboutPage />
+        </Route>
+        <Route path="/contact" exact>
+          <ContactPage />
+        </Route>
       </Switch>
     );
   } else {
@@ -103,6 +127,15 @@ function App() {
       <Switch>
         <Route path="/" exact>
           <HomePage />
+        </Route>
+        <Route path="/service" exact>
+          <Services />
+        </Route>
+        <Route path="/about" exact>
+          <AboutPage />
+        </Route>
+        <Route path="/contact" exact>
+          <ContactPage />
         </Route>
         <Redirect to="/" />
       </Switch>
@@ -124,7 +157,7 @@ function App() {
         value={{ isLoggedIn: isAdmin, login: loginAdmin, logout: logoutAdmin }}
       >
         <Router>
-          {/* <Navbar /> */}
+          <Navbar />
           {/* {isLoggedIn && <UserNav />} */}
           {routes}
           {/* <Footer /> */}
