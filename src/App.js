@@ -159,7 +159,7 @@ function App() {
         <Router>
           <Navbar />
           <h1> In Developing Stage</h1>
-          <h2> In other System </h2>
+          <h2> In Yash System </h2>
           {/* {isLoggedIn && <UserNav />} */}
           {routes}
           {/* <Footer /> */}
