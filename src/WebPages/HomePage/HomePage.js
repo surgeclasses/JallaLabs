@@ -1,11 +1,15 @@
 import React from "react";
+import AboutPage from "../AboutPage/AboutPage";
+import ContactPage from "../ContactPage/ContactPage";
+import Services from "../ServicesPage/Services";
 import "./HomePage.css";
 
 const HomePage = () => {
   return (
     <div>
-       <h1> Home Page Raman</h1>
-       <h2> started development by Raman </h2>
+       <Services />
+       <AboutPage />
+       <ContactPage />
     </div>
   );
 };
