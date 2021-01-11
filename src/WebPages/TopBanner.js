@@ -18,7 +18,7 @@ const TopBanner = () => {
         },
         {
           key: '3',
-          title: 'None',
+          title: 'Nonty',
           content: "Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write",
         },
       ]  
