@@ -101,3 +101,21 @@
 .service-box2{
     /* border: blue 5px solid; */
 }
+
+@media (max-width: 768px) {
+
+    .service-box{
+        /* border: black 8px solid; */
+        display:grid;
+        justify-content: center;
+        height: 220vh;
+        /* flex-wrap:wrap; */
+    }
+
+    .service-box li{
+        width:100%;
+        padding:5%;
+        padding-top:3%;
+    }
+    
+}
