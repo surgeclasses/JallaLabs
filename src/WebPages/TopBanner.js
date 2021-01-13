@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'antd';
 
 import { Carousel } from 'antd';
 
@@ -18,8 +17,8 @@ const TopBanner = () => {
         },
         {
           key: '3',
-          title: 'Nonty',
-          content: "Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write # Yet to write",
+          title: 'Start Projects of Deep Learning',
+          content: "Start with something simple and make changes incrementally. Model optimizations like regularization can always wait after the code is debugged. Visualize your predictions and model metrics frequently. Make something works first so you have a baseline to fall back.",
         },
       ]  
 

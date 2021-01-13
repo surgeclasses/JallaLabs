@@ -58,7 +58,7 @@ title holder
 }
 
 .titleHolder h2 {
-  font-size: 28px;
+  font-size: 38px;
   margin: 0;
 }
 
@@ -204,7 +204,7 @@ hero
 ---- 
 */
 .heroBlock {
-  background: url('./assets/images/bg-hero.jpg') no-repeat;
+  background: url('./assets/images/banner5.jpg') no-repeat;
   background-position: 50% 100%;
   background-size: cover;
   height: 100vh;

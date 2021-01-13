@@ -26,12 +26,12 @@ const Navbar = () => {
         <div className="mobileHidden">
           <Anchor targetOffset="65">
             <Link href="#hero" title="Home" />
+            <Link href="#feature" title="Services" />
             <Link href="#about" title="About" />
-            <Link href="#feature" title="Features" />
-            <Link href="#works" title="How it works" />
-            <Link href="#faq" title="FAQ" />
-            <Link href="#pricing" title="Pricing" />
-            <Link href="#contact" title="Contact" />
+            {/* <Link href="#works" title="How it works" /> */}
+            {/* <Link href="#faq" title="FAQ" /> */}
+            {/* <Link href="#pricing" title="Pricing" /> */}
+            <Link href="#contact" title="ContactUs" />
           </Anchor>
         </div>
         <div className="mobileVisible">
@@ -46,12 +46,12 @@ const Navbar = () => {
           >
             <Anchor targetOffset="65">
               <Link href="#hero" title="Home" />
+              <Link href="#feature" title="Services" />
               <Link href="#about" title="About" />
-              <Link href="#feature" title="Features" />
-              <Link href="#works" title="How it works" />
-              <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
-              <Link href="#contact" title="Contact" />
+              {/* <Link href="#works" title="How it works" /> */}
+              {/* <Link href="#faq" title="FAQ" /> */}
+              {/* <Link href="#pricing" title="Pricing" /> */}
+              <Link href="#contact" title="ContactUs" />
             </Anchor>
           </Drawer>
         </div>
