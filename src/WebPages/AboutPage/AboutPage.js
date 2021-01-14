@@ -1,46 +1,63 @@
 import React from "react";
 import "./AboutPage.css";
-// import { RiLiveFill } from "react-icons/ri";
-// import { HiUserGroup } from "react-icons/hi";
-// import { FaProjectDiagram } from "react-icons/fa";
-// import { ImOffice } from "react-icons/im";
+
 
 const AboutPage = () => {
   return (
-    <div>
-    </div>
-    // <div className="features">
-    //         <ul>
-    //             <li className="feature-box1">
-    //             <RiLiveFill className="feature-icons" />
-    //             <h1 className="feature-h1Fonts">Live Classes</h1>
-    //             <p className="feature-pFonts">• Online classes taught through video have already proven their effectiveness and preference for the vast majority of viewers.
-    //             Through recorded classes the student is able to see and hear the teacher, facilitating the dynamics and connection that occurs in a classroom. •</p>
-    //             </li>
+    <div id="feature" className="block featureBlock bgGray">
+    <div className="container-fluid">
+      <div className="titleHolder">
+        <div className="aboutus-header">
+        <h2>About Us</h2>
+        </div>
+        <div className="aboutus-info">
+        <p>We're a group of people who are wildly passionate about changing the way content is created on the web. We believe content creation has been constrained by technology for too long and creativity has taken a backseat. We exist to unlock creativity. Our platform empowers the world's leading brands to share their stories and engage their audiences.</p>
+        </div>
+        </div>
+        <div className="aboutus-features">
+        <div className="aboutus-features1">
+        <div className="features-css">
+        <h2>Dedicated Team of Industry Experts</h2>
+        <p>Even with all the right information available, human involvement cannot be omitted.</p>
+        </div>
+        </div>
 
-    //             <li className="feature-box2">
-    //             <HiUserGroup className="feature-icons" />
-    //             <h1 className="feature-h1Fonts">Expert Instructors</h1>
-    //             <p className="feature-pFonts">• Even with all the right information available, human involvement cannot be omitted. With our mentor support team, 
-    //             Surge Classes offers an option to get your doubts cleared by experts and interact with a personal online instructor for any doubts you may have. •</p>
-    //             </li>
-                
-    //             <li className="feature-box3">
-    //             <FaProjectDiagram className="feature-icons" />
-    //             <h1 className="feature-h1Fonts">Multiple Projects</h1>
-    //             <p className="feature-pFonts">• Managing multiple projects presents different and additional challenges when compared with the management of a single project. 
-    //             This acquired knowledge and skills in the areas of scope, time, cost, risk, human resources,
-    //              leadership, and teambuilding. •</p>
-    //             </li>
-                
-    //             <li className="feature-box4">
-    //             <ImOffice className="feature-icons" />
-    //             <h1 className="feature-h1Fonts">Industry Oriented</h1>
-    //             <p className="feature-pFonts">• Industry oriented education is an approach to learning from an industry perspective. With traditional technical teaching methodologies in educational environments,
-    //              the conventional pathway is to build the foundation learning through real projects enviornment. •</p>
-    //             </li>
-    //         </ul>
-    //     </div>
+        <div className="aboutus-features2">
+        <div className="features-css">
+        <h2>Outcome-Driven Approach</h2>
+        <p>Output-driven management is based on goals and criteria.</p>
+        </div>
+        </div>
+
+        <div className="aboutus-features3">
+        <div className="features-css">
+        <h2>Multiple Projects</h2>
+        <p>Managing multiple projects presents different and additional challenges as compared with the management of a single project.</p>
+        </div>
+        </div>
+       
+        </div>
+
+        <div className="aboutpage-css">
+        <h2>Our Culture</h2>
+        <p>You'll find our core values expressed in everything we do, whether it's building our product, designing a new office, or planning team outings.</p>
+        </div>
+        
+        <div className="aboutuspage-column">
+        <div className="aboutuspage-row">
+        <div className="aboutuspage-row1"><h2>Dedicated Mentors</h2></div>
+        <div className="aboutuspage-row2"><h2>Leadership and Mentoring</h2></div>
+        </div>
+        <div className="aboutuspage-row">
+        <div className="aboutuspage-row3"><h2>Respect for each other</h2></div>
+        <div className="aboutuspage-row4"><h2>Good Working Environment</h2></div>
+        </div>
+        
+        </div>
+       
+
+    </div>
+    </div>
   );
 };
 
