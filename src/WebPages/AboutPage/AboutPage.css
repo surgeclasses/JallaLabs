@@ -9,6 +9,11 @@
   
 }
 
+.aboutus-info span{
+  color: green;
+  font-weight: bold;
+}
+
 .aboutus-features{
   margin-left: 1rem;
   margin-top: 6rem;
