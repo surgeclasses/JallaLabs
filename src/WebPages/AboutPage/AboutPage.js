@@ -11,7 +11,7 @@ const AboutPage = () => {
         <h2>About Us</h2>
         </div>
         <div className="aboutus-info">
-        <p>We're a group of people who are wildly passionate about changing the way content is created on the web. We believe content creation has been constrained by technology for too long and creativity has taken a backseat. We exist to unlock creativity. Our platform empowers the world's leading brands to share their stories and engage their audiences.</p>
+        <p>We Surge Classes are a group of people who are wildly passionate about changing the way content is created on the web. We believe content creation has been constrained by technology for too long and creativity has taken a backseat. We exist to unlock creativity. Our platform empowers the world's leading brands to share their stories and engage their audiences.</p>
         </div>
         </div>
         <div className="aboutus-features">
