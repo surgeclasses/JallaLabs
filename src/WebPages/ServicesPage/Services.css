@@ -28,30 +28,7 @@
     display:none;
   }
   
-  .service-box li:hover .service-icons{
-    /* font-size: 90px; */
-  }
-  
-  .service-box li:hover .service-h1Fonts{
-    /* font-weight: 600;
-    font-size: 50px; */
-  }
-  
-  .service-box li:hover .service-pFonts{
-    /* font-size:21px;
-    font-weight: 400; */
-  }
-  
-  .service-icons{
-    /* font-size: 70px;
-    text-align: center; */
-  }
-  
-  .service-h1Fonts{
-    /* font-weight: 600;
-    font-size: 40px; */
-  }
-  
+
   .service-pFonts{
     font-size:18.5px;
     font-weight: 400;
@@ -94,13 +71,13 @@
       display:none;
   }
 
-.service-box1{
-    /* border: red 5px solid; */
+/* .service-box1{
+    border: red 5px solid;
 }
 
 .service-box2{
-    /* border: blue 5px solid; */
-}
+    border: blue 5px solid;
+} */
 
 @media (max-width: 768px) {
 
