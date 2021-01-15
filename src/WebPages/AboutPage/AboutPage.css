@@ -10,7 +10,7 @@
 }
 
 .aboutus-info span{
-  color: green;
+  color: #222222;
   font-weight: bold;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .aboutpage-css{
-  margin-top: 7rem;
+  margin-top: 3%;
   text-align: center;
 }
 
@@ -70,6 +70,10 @@
   justify-content: space-around;
 }
 
+.aboutuspage-row p{
+  width:80%;
+}
+
 .aboutuspage-row1{
   flex: 1;
 }
@@ -84,4 +88,9 @@
 
 .aboutuspage-row4{
   flex: 1;
+}
+
+.about-image{
+  width:100%;
+  margin-top:2%;
 }
