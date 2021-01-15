@@ -31,7 +31,7 @@ const Navbar = () => {
             {/* <Link href="#works" title="How it works" /> */}
             {/* <Link href="#faq" title="FAQ" /> */}
             {/* <Link href="#pricing" title="Pricing" /> */}
-            <Link href="#contact" title="ContactUs" />
+            
           </Anchor>
         </div>
         <div className="mobileVisible">
