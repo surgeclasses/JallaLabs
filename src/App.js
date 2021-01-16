@@ -14,7 +14,7 @@ const { Header, Content, Footer } = Layout;
 function App() {
   return (
     <Layout className="mainLayout">
-      <Header>
+      <Header> 
         <Navbar />
       </Header>
       <Content>
