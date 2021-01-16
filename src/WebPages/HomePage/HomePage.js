@@ -11,7 +11,6 @@ const HomePage = () => {
       <TopBanner />
        <Services />
        <AboutPage />
-       <ContactPage/>
        
     </div>
   );
